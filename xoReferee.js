@@ -13,7 +13,7 @@ function xoReferee(data) {
   data.forEach((element, index) => {
     dataArray[index] = element.split("");
   });
-  var gameResult;
+  var gameResult = ".";
   for (var i = 0; i < 3; i++) {
     if (
       dataArray[i][0] == dataArray[i][1] &&
